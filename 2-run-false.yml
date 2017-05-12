@@ -5,6 +5,6 @@ services:
 workflows:
   change:
     create:
-      - run: false
+      - run: 'false'
     update:
-      - run: false
+      - run: 'false'
