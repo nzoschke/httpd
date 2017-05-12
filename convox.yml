@@ -5,6 +5,6 @@ services:
 workflows:
   change:
     create:
-      - run: 'false'
+      - test: staging
     update:
-      - run: 'false'
+      - test: staging
