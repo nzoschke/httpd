@@ -1,5 +1,7 @@
 services:
   web:
+    command:
+      test: ping -c 5 google.com
     image: httpd
     port: 80
 workflows:
